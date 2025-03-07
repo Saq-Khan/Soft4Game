@@ -66,6 +66,7 @@
             width: 100%;
             top: 0;
             transition: top 0.3s, background-color 0.3s;
+                z-index: 999;
         }
         @media screen and (max-width:992px) {
             .navbar:has(.show){
